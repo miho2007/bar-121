@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+.chat {
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    display: flex;
+    z-index: 999;
+    margin-left: 1275px;
+    margin-top: 648px;
+}
+
+.c837a6_ab7a0e38c4a449b89fe5bd7ee599dc3b {
+    color: black;
+    
+}
+.right {
+    display: flex;
+    gap: 7px;
+}
+.left{
+    margin-left: 800px;
+    text-decoration: none;
+    display: flex;
+    gap: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px ;
+}
+
+.lft {
+display: inline;
+text-decoration: none;
+}
+
+.ateam {
+    color: white;
+    transition: 0.5s;
+}
+
+.ateam:hover {
+    color: rgb(214, 139, 26)
+}
+
+.ateam1:hover {
+    color: rgb(214, 139, 26)
+}
+      
+
+body{
+    background-color: rgb(13, 12, 17);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstsection {
+    padding: 50px;
+}
+
+header{
+    z-index: 999;
+    position: fixed;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+.bck{
+    width: 100%;
+    
+}
+
+
+li{
+    display: flex;
+    gap: 10px;
+}
+
+
+ul{
+    background-color: transparent;
+}
+
+
+
+nav{
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+}
+#logo1{
+    margin-top: 8px;
+    margin-left: 50px;
+}
+#logo2{
+    color: azure;
+    font-family: 'Exo 2', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+}
+
+#logo3{
+    margin-top: 20px;
+    color: aliceblue;
+    
+}
+  
+                                                            /* next */
+.headsection{
+    z-index: 999;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    width: 450px;
+    height: 630px;
+    text-align: center;
+    margin-left: 500px;
+    padding: 40px 50px 20px 50px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    margin-bottom: 50px;
+}
+
+
+.secondp{
+   font-size: 160px;
+}
+.hr1{
+    width: 400px;
+    margin-top: 60px;
+}
+
+.firsth1{
+    font-size: 24px;
+}
+
+.firstbtn{
+    padding: 15px 40px 15px 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+
+.firstbtn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.thirdp {
+    margin-top: 40px;
+}
+
+.span1 {
+    font-size: 60px;
+}
+
+.firstmainpart1 {
+    display: flex;
+    gap: 100px;
+    margin-left: 45px;
+}
+
+.secondbtn {
+    padding: 15px 40px 15px 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.secondbtn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.firstasidepart1{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.firstasidepart2{
+    margin-top: 100px;
+}
+
+.hr2 {
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.firsth2 {
+    font-size: 60px;
+    margin-left: 185px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.firstmainpart2 {
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+}
+
+.thirdbtn {
+    padding: 15px 40px 15px 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.thirdbtn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.img1 {
+    margin-left: 100px;
+    width: 489px;
+    height: 480px;
+}
+
+.asideofmainpart2{
+    margin-left: 150px;
+}
+
+.firsth3{
+    font-size: 24px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+.fourthp{
+   font-size: 36px;
+   margin-bottom: 30px;
+}
+
+.fifthp{
+   font-size: 16px;
+}
+
+.sixthp{
+    margin-top: 5px;
+    padding-bottom: 30px;
+}
+
+.blank1 {
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+}
+
+.secondmainpart{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.img2 {
+    margin-left: 300px;
+    width: 489px;
+    height: 480px;
+}
+
+.theendpart1 {
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+}
+
+.secondh2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.barimages {
+    gap: 10px;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+
+.img3div {
+    display: inline-flex;
+}
+.img3 {
+    width: 700px;
+    height: 710px;
+}
+
+.img4div{
+    display: inline-flex;
+}
+.img4 {
+    height: 350px;
+    width: 350px;
+}
+.img5div{
+    display: inline-flex;
+}
+.img5 {
+    height: 350px;
+    width: 350px;
+}
+.img6div{
+    display: inline-flex;
+}
+.img6 {
+    height: 350px;
+    width: 350px;
+}
+.img7div {
+    display: inline-flex;
+}
+.img7 {
+    height: 350px;
+    width: 350px;
+}
+
+.imgspart2{
+    margin-right: 150px;
+}
+
+
+
+
+
+
+.thirdh2{
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.h2div{
+    padding: 40px 60px 40px 60px;
+}
+.theendpart2 {
+    padding: 40px 60px 40px 60px;
+}
+
+.form1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 60px;
+}
+
+.input1 {
+    width: 350px;
+    height: 35px;
+    background-color: rgb(13, 12, 17);
+    color: white;
+    border: 0.8px solid rgb(255, 255, 255);
+}
+
+.input1:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.input2 {
+    width: 350px;
+    height: 35px;
+    background-color: rgb(13, 12, 17);
+    color: white;
+    border: 0.8px solid rgb(255, 255, 255);
+}
+.input2:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.input3 {
+    width: 350px;
+    height: 35px;
+    background-color: rgb(13, 12, 17);
+    color: white;
+    border: 0.8px solid rgb(255, 255, 255);
+}
+
+.input3:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+.fourthbtn{
+    background-color: rgb(214, 139, 26);
+    color: black;
+    transition: 0.5s;
+    height: 40px;
+    width: 110px;
+    height: 40px;
+    margin-top: 28px;
+    margin-bottom: 2px;
+}
+
+.fourthbtn:hover{
+    background-color: black;
+    color: rgb(214, 139, 26);
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid rgb(214, 139, 26);
+}
+
+
+.party-size{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Date {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;}
+
+.Time{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+.eightimg {
+    height: 400px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-2{
+    display: flex;
+    gap: 5px;
+}
+
+.nav-3 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.a1 {
+    font-size: 30px;
+}
+
+.a2 {
+    margin-top: 15px;
+}
+
+.fourthh3 {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.seventhp {
+    padding-bottom: 10px;
+}
+
+.eightp {
+    padding-bottom: 30px;
+}
+
+
+.fifthh3 {
+    padding-bottom: 10px;
+}
+
+.iconsdiv {
+    display: flex;
+    gap: 10px;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input4 {
+    width: 350px;
+    height: 35px;
+    background-color: rgb(13, 12, 17);
+    color: white;
+    border: 0.8px solid rgb(255, 255, 255);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btnsubscribe {
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.btnsubscribe:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footerdiv4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sixthh3 {
+    font-size: 24px;
+    padding-bottom: 20PX;
+}
+
+.seventhh3 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.lastdivs1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+
+.lastdivs2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footerdiv3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hr3{
+    width: 100%;
+    margin-top: 100px;
+}
+
+#a3 {
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 45px;
+}
